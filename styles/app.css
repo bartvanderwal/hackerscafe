@@ -1,0 +1,52 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.rsvpName {
+    font-weight: bold;
+}
+.rsvpBio {
+    display: block;
+}
+.krijt {
+    font-family: 'tafelschriftregular';
+}
+#currentRsvp {
+    color: lightsalmon;
+    display: block;
+    font-size: 9px;
+    height: 32px;
+    left: 343px;
+    line-height: 16px;
+    opacity: 1;
+    overflow: hidden;
+    padding-left: 0px;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    transition: opacity 500ms;
+    top: -113px;
+    -webkit-transform: translate(100px) rotate(20deg);
+    -webkit-transform-origin: 0 -250px;
+    transform: translate(98px) rotate(14deg);
+    transform-origin: 0 -250px;
+    width: 90px;
+    transition: font-size 500ms;
+}
+#currentRsvp.incoming {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+#currentRsvp:hover {
+    font-size: 11px;
+    transition: font-size 500ms;
+}
+#currentRsvpPhoto {
+    position: relative;
+    left: 547px;
+    border: solid 3px salmon;
+    padding: 8px;
+    -webkit-transform: rotate(20deg);
+    top: -534px;
+    transform: rotate(30deg);
+}

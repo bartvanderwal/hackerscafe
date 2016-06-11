@@ -1,0 +1,345 @@
+[
+    {
+        "created": 1463035762000,
+        "updated": 1463035762000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 137357922,
+            "name": "Bart van der W.",
+            "bio": "Fullstack webdeveloper in Zeist. Microsoft .NET als backend, Google AngularJS op de frontend.",
+            "photo": {
+                "id": 255666112,
+                "highres_link": "http://photos3.meetupstatic.com/photos/member/1/7/e/0/highres_255666112.jpeg",
+                "photo_link": "http://photos1.meetupstatic.com/photos/member/1/7/e/0/member_255666112.jpeg",
+                "thumb_link": "http://photos3.meetupstatic.com/photos/member/1/7/e/0/thumb_255666112.jpeg"
+            },
+            "role": "organizer",
+            "event_context": {
+                "host": true
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1463208851000,
+        "updated": 1463208851000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 203338903,
+            "name": "Cornelis",
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1463330427000,
+        "updated": 1463330427000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 198986076,
+            "name": "Dennis van der W.",
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1465326149000,
+        "updated": 1465326149000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 199605473,
+            "name": "Hendrik W.",
+            "bio": "Full stack software developer at Karify",
+            "photo": {
+                "id": 257246959,
+                "highres_link": "http://photos2.meetupstatic.com/photos/member/6/9/4/f/highres_257246959.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/member/6/9/4/f/member_257246959.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/member/6/9/4/f/thumb_257246959.jpeg"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1463204566000,
+        "updated": 1463204566000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 193862102,
+            "name": "Jasper van G.",
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1463035762000,
+        "updated": 1463035762000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 185234022,
+            "name": "Marco M.",
+            "bio": "Webdeveloper, HTML5, CSS, ASP.NET MVC, PHP, iOS Developer, Swift",
+            "photo": {
+                "id": 244531423,
+                "highres_link": "http://photos2.meetupstatic.com/photos/member/7/a/b/f/highres_244531423.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/member/7/a/b/f/member_244531423.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/member/7/a/b/f/thumb_244531423.jpeg"
+            },
+            "event_context": {
+                "host": true
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    },
+    {
+        "created": 1463215924000,
+        "updated": 1463215924000,
+        "response": "yes",
+        "guests": 0,
+        "event": {
+            "id": "231065621",
+            "name": "Hackerscafé",
+            "yes_rsvp_count": 0,
+            "time": 1466008200000,
+            "utc_offset": 7200000
+        },
+        "group": {
+            "id": 19839956,
+            "urlname": "Web-Developers-Heuvelrug",
+            "name": "Webdevelopers Utrechtse Heuvelrug",
+            "who": "Webdevelopers op de Heuvelrug",
+            "members": 16,
+            "join_mode": "approval",
+            "group_photo": {
+                "id": 449931327,
+                "highres_link": "http://photos2.meetupstatic.com/photos/event/c/8/7/f/highres_449931327.jpeg",
+                "photo_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/600_449931327.jpeg",
+                "thumb_link": "http://photos4.meetupstatic.com/photos/event/c/8/7/f/thumb_449931327.jpeg"
+            }
+        },
+        "member": {
+            "id": 184409597,
+            "name": "Robin van L.",
+            "photo": {
+                "id": 253668668,
+                "highres_link": "http://photos3.meetupstatic.com/photos/member/b/e/1/c/highres_253668668.jpeg",
+                "photo_link": "http://photos1.meetupstatic.com/photos/member/b/e/1/c/member_253668668.jpeg",
+                "thumb_link": "http://photos3.meetupstatic.com/photos/member/b/e/1/c/thumb_253668668.jpeg"
+            },
+            "event_context": {
+                "host": false
+            }
+        },
+        "venue": {
+            "id": 24542503,
+            "name": "De Reünie Zeist",
+            "lat": 52.08756637573242,
+            "lon": 5.247241020202637,
+            "repinned": false,
+            "address_1": "Slotlaan 266",
+            "city": "3701GW",
+            "country": "nl",
+            "localized_country_name": "Netherlands"
+        }
+    }
+]

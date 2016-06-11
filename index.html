@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="fonts/stylesheet.css" rel="stylesheet">
+        <link href="styles/app.css" rel="stylesheet">
+    </head>
+    <body ng-app="app">
+        <div class="container" ng-controller="MeetupListController as vm">
+            <h1><img src="img/Meetup_Logo.png" alt="Webdevelopers Utechtse Heuvelrug" style="height: 50px;"> Hackers Caf&eacute; 15 juni 2016</h1>
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- <pre>{{ vm.currentRsvp | json }} </pre> -->
+                    <img src="img/FotoDeReunieHacked.jpg" alt="De Reünie" style="width: 600px;">
+                    <span id="currentRsvp" class="krijt">
+                        <span class="rsvpName" ng-attr-title="{{ 'id: ' + vm.currentRsvp.member.member_id }}">
+                            {{ vm.currentRsvp.member.name }}
+                        </span>
+                    </span>
+                    <button ng-click="vm.nextRsvp()" ng-enabled="vm.rsvps.length>1" type="button" class="btn btn-default">Next!</button>
+                    <button ng-click="vm.clearLocalStorage()" ng-enabled="vm.rsvps.length>1" type="button" class="btn btn-default">Clear storage</button>
+                    <input type="checkbox" ng-model="vm.doAutoNextRsvp">Autonext</button>
+                    <input type="checkbox" ng-model="vm.isDebug">Debug</button>
+                    <span style="color: red; font-weight: bold;" ng-cloak ng-show="vm.isExpired" style="margin-left: 10px;">API Token leeg/verlopen</span>
+                    <rm-meetup-oauth refresh-token="vm.refresh(token, expiresIn)" style="display: inline">
+                        <button ng-enable="vm.isExpired" type="button" class="btn btn-default">Update via API!</button>
+                    </rm-meetup-oauth>
+                    <img id="currentRsvpPhoto" ng-src="{{ vm.currentRsvp.member_photo.thumb_link || 'img/anonymous.png' }}">
+                </div>
+                <div class="col-md-5 col-md-offset-2" ng-cloak ng-show="vm.isDebug">
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <pre>vm.isExpired: {{ vm.isExpired }}</pre>
+                    </div>
+                    <div class="row">
+                        <pre>vm.meetupToken: {{ vm.meetupToken }}</pre>
+                    </div>
+                    <div class="row">
+                        <pre>vm.expiresIn: {{ vm.expiresIn }}</pre>
+                    </div>
+                    <div class="row">
+                        <label for="meetupId">Meetup id:</label>
+                        <input type="text" ng-model="vm.meetupEventId" id="meetupId"></input>
+                    </div>
+                    <div class="row">
+                        <p>Aantal rsvp's: {{ vm.rsvps ? vm.rsvps.length || '?' : '-' }}
+                    </div>
+                    <ul>
+                        <li ng-repeat="rsvp in vm.rsvps">
+                            <i class="fa fa-male" aria-hidden="true"></i>
+                            <img id="" ng-src="{{ rsvp.member_photo.thumb_link || 'img/anonymous.png' }}">
+                            <span class="krijt">
+                            <span class="rsvpName" ng-attr-title="{{ rsvp.member.member_id }}">
+                                {{ rsvp.member.name }}
+                            </span>
+                            <span class="rsvpBio">{{ rsvp.member.bio }}</span>
+                        </li>
+                    </ul>
+                    <pre>vm.rsvps: {{ vm.rsvps | json }}</pre>
+                </div>
+            </div>
+        </div>
+        <script src="vendor/angular/angular.min.js"></script>
+        <script src="vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+        <script src="app/app.module.js"></script>
+        <script src="app/meetup/meetup-list.controller.js"></script>
+        <script src="vendor/angular-sanitize/angular-sanitize.min.js"></script>        
+        <script src="vendor/angular-resource/angular-resource.min.js"></script>        
+        <script src="vendor/angular-meetup/dist/angular-meetup.js"></script>        
+    </body>
+</html>
