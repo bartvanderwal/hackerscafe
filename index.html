@@ -20,14 +20,28 @@
                         </span>
                     </span>
                     <button ng-click="vm.nextRsvp()" ng-enabled="vm.rsvps.length>1" type="button" class="btn btn-default">Next!</button>
-                    <button ng-click="vm.clearLocalStorage()" ng-enabled="vm.rsvps.length>1" type="button" class="btn btn-default">Clear storage</button>
+                    <button ng-click="vm.clearLocalStorage()" ng-enabled="vm.rsvps.length>1" type="button" class="btn btn-default">Clear token</button>
                     <input type="checkbox" ng-model="vm.doAutoNextRsvp">Autonext</button>
                     <input type="checkbox" ng-model="vm.isDebug">Debug</button>
                     <span style="color: red; font-weight: bold;" ng-cloak ng-show="vm.isExpired" style="margin-left: 10px;">API Token leeg/verlopen</span>
                     <rm-meetup-oauth refresh-token="vm.refresh(token, expiresIn)" style="display: inline">
-                        <button ng-enable="vm.isExpired" type="button" class="btn btn-default">Update via API!</button>
+                        <button ng-enable="vm.isExpired" type="button" class="btn btn-default" title="Update via API!">Update</button>
                     </rm-meetup-oauth>
-                    <img id="currentRsvpPhoto" ng-src="{{ vm.currentRsvp.member_photo.thumb_link || 'img/anonymous.png' }}">
+                    <div id="currentRsvpPhoto"><img ng-src="{{ vm.currentRsvp.member_photo.thumb_link || 'img/anonymous.png' }}"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p><i class="fa fa-font-awesome" aria-hidden="true"></i> 
+                            Kom naar <a href="http://www.meetup.com/Web-Developers-Heuvelrug/events/231065621/">de Meetup 18:30-20:30</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="fa fa-facebook-official" aria-hidden="true"></i> 
+                            Check het <a href="https://www.facebook.com/webdevelopersheuvelrug/?fref=ts">op Facebook</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="fa fa-github" aria-hidden="true"></i> 
+                            Check de <a href="https://github.com/bartvanderwal/hackerscafe">code op GitHub</a></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-5 col-md-offset-2" ng-cloak ng-show="vm.isDebug">
                     <div class="row">

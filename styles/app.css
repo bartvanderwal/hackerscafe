@@ -41,10 +41,12 @@
 }
 #currentRsvpPhoto {
     position: relative;
-    left: 546px;
+    left: 533px;
     border: solid 3px salmon;
     padding: 8px;
     -webkit-transform: rotate(30deg);
-    top: -534px;
+    top: -586px;
     transform: rotate(30deg);
+        width: 100px;
+
 }
