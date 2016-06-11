@@ -2,11 +2,6 @@
   display: none !important;
 }
 
-.outer:before {
-    content: 'Fork me on github'
-    transform: 
-}
-
 .rsvpName {
     font-weight: bold;
 }
@@ -46,7 +41,7 @@
 }
 #currentRsvpPhoto {
     position: relative;
-    left: 321px;
+    left: 546px;
     border: solid 3px salmon;
     padding: 8px;
     -webkit-transform: rotate(30deg);
