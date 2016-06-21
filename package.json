@@ -1,0 +1,30 @@
+{
+  "name": "hackerscafe",
+  "version": "1.0.0",
+  "description": "Demo code voor Hackerscafe Meetup: Aanroep API met Angular en wat HTML/CSS tricks",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartvanderwal/hackerscafe.git"
+  },
+  "keywords": [
+    "Angular",
+    "Meetup",
+    "API",
+    "CSS3",
+    "Transition",
+    "WebFont",
+    "WOFF"
+  ],
+  "author": "Bart van der Wal <bartvanderwal@gmail.com> (http://itoffthewall.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartvanderwal/hackerscafe/issues"
+  },
+  "homepage": "https://github.com/bartvanderwal/hackerscafe#readme"
+}
